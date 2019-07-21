@@ -5,19 +5,28 @@ var sanbtn = sanbtn || {};
 sanbtn.btn = {
 
 	options : {
+		positionType : 'fixed',
 		position : 'left',
-		posTop : '',
-		posLeft : '',
-		posRight : '',
-		posBottom : '',
+		posTop : '-1',
+		posLeft : 50,
+		posRight : '-1',
+		posBottom : 50,
+		btnWidth : 500,
+		btnZindex : 1,
 		img : '',
 		alink : '',
-		textBtn : 
+		textBtnTitle : '',
+		textBtnDescription : '',
+		textBtnColorTitle : '',
+		textBtnColorDescription : '',
+		colorBorder : '',
+		heightBorder : 3,
+		styleBorder : 'solid'
 	},
 	
 	init: function(options){
     
-		alert(this.options.position);
+		alert(this.options.posTop);
 	
 	}
 
