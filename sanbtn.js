@@ -5,20 +5,18 @@ var sanbtn = sanbtn || {};
 sanbtn.btn = {
 
 	options : {
-		
 		position : 'left',
 		posTop : '',
 		posLeft : '',
 		posRight : '',
 		posBottom : '',
 		img : '',
-		
-		
+		alink : ''
 	},
 	
 	init: function(options){
     
-		alert(this.options.left);
+		alert(this.options.position);
 	
 	}
 
