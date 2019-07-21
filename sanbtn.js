@@ -4,6 +4,27 @@ var sanbtn = sanbtn || {};
 
 sanbtn.btn = {
 
+	options : {
+		
+		position : 'left',
+		posTop : '',
+		posLeft : '',
+		posRight : '',
+		posBottom : '',
+		img : '',
+		
+		
+	},
+	
+	init: function(options){
+    
+		alert(this.options.left);
+	
+	}
+
 	
 
 }
+
+
+sanbtn.btn.init();
