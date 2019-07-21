@@ -11,7 +11,8 @@ sanbtn.btn = {
 		posRight : '',
 		posBottom : '',
 		img : '',
-		alink : ''
+		alink : '',
+		textBtn : 
 	},
 	
 	init: function(options){
